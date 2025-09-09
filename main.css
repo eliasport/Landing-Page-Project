@@ -127,4 +127,32 @@
     /* text-align: right; */
     display: flex;
     justify-content: flex-end;
+    font-size: 30px;
 }
+
+.signUp-only {
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    background-color: #3882F6;
+    padding: 36px 0 ;
+    color:#e5e7eb;
+    /* max-width: fit-content; */
+    margin: 0 20%;
+    border-radius: 12px;
+}
+
+.signup-text > h3{
+    font-size: 24px;
+}
+
+.signup-button > button{
+    background-color: #3882F6;
+    border: 2px solid #e5e7eb;
+    padding: 7px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 12px;
+    color: #e5e7eb;
+}
+
