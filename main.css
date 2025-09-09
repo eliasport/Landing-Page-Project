@@ -114,11 +114,17 @@
 
 
 .text-section {
+    /* text-align: center; */
     width: 100%;
     background-color: #e5e7eb;
     font-size: 36px;
     margin: 6% 0  ;
     padding: 9% 12%;
+}
+.text-section i {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
 }
 .text-section p {
     color: #1f2937;
