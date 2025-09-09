@@ -111,3 +111,20 @@
     font-size: 17px;
     color: #4B5563;
 }
+
+
+.text-section {
+    width: 100%;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    margin: 6% 0  ;
+    padding: 9% 12%;
+}
+.text-section p {
+    color: #1f2937;
+}
+.quote-autor {
+    /* text-align: right; */
+    display: flex;
+    justify-content: flex-end;
+}
