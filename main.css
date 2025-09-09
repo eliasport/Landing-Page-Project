@@ -39,3 +39,40 @@
     font-size: 18px;
 }
 
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin: ; */
+}
+.title-container {
+    max-width: 550px;
+}
+
+#main-title {
+    font-size: 48px;
+    font-weight: 700;
+}
+.main-text {
+    max-width: 400px;
+}
+.title-container .signup-button {
+    background-color: #3882F6;
+    padding: 5px 25px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.title-container .signup-button:hover {
+    cursor: pointer;
+}
+
+.image-container {
+    background-color: rgba(128, 128, 128, 0.419);
+    width: 400px;
+    height: 200px;
+    /* text-align: center; */
+}
