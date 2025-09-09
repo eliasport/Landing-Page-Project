@@ -68,6 +68,7 @@
 }
 .title-container .signup-button:hover {
     cursor: pointer;
+    background-color: #1a5dc7;
 }
 
 .image-container {
@@ -161,4 +162,18 @@
     border-radius: 12px;
     color: #e5e7eb;
 }
+.signup-button > button:hover {
+    cursor: pointer;
+    background-color: #1a5dc7;
+    border: 3px solid #e5e7eb;
+    box-shadow: 0 0 10px #1b212c;
+}
 
+.footer-section {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 20px;
+    margin-top: 90px;
+}
