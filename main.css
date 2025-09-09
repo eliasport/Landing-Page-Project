@@ -76,3 +76,38 @@
     height: 200px;
     /* text-align: center; */
 }
+
+
+.info-container {
+    margin-top: 35px;
+}
+.info-main-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.info-content {
+    display: flex;
+    /* margin: auto; */
+    justify-content: center;
+    gap: 5em;
+    margin-top: 30px;
+}
+.info-item {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 20px;
+}
+.info-item img{ 
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+    width: 150px;
+    height: 150px;
+}
+.info-item p {
+    font-size: 17px;
+    color: #4B5563;
+}
